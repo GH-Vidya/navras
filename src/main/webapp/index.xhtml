@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<style type="text/css">
+#mydiv {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	right: 5%;
+	width: 80%;
+}
+</style>
+</h:head>
+<h:body style="background-image: url('./images/wall4.jpg')">
+
+
+	<h:form>
+
+		<div id="mydiv">
+			<p:tabView activeIndex="0">
+
+				<p:tab title="Home">
+					<ui:include src="pages/home.xhtml" />
+				</p:tab>
+
+				<p:tab title="About Me">
+					<ui:include src="pages/about.xhtml" />
+				</p:tab>
+
+				<p:tab title="Workshops">
+					<ui:include src="pages/workshops.xhtml" />
+				</p:tab>
+
+				<p:tab title="Gallery">
+					<ui:include src="pages/gallery.xhtml" />
+				</p:tab>
+
+				<p:tab title="Events">
+					<ui:include src="pages/events.xhtml" />
+				</p:tab>
+
+				<p:tab title="FAQ">
+					<ui:include src="pages/faq.xhtml" />
+				</p:tab>
+
+				<p:tab title="Contact">
+					<ui:include src="pages/contact.xhtml" />
+				</p:tab>
+				
+				<p:tab title="Admin">
+					<ui:include src="pages/admin.xhtml" />
+				</p:tab>
+			</p:tabView>
+		</div>
+		<!-- <p:layout style="min-width:400px;height:900px;">
+
+				<p:layoutUnit position="north" size="200">
+				<p:graphicImage url="./images/yelloworange.jpg" style="height:300px; width:600px;"
+							alt="Image Description for #{image}" title="#{image}" />
+
+			</p:layoutUnit>
+
+
+			<p:layoutUnit position="west" size="200">
+			</p:layoutUnit>
+
+
+			<p:layoutUnit position="east" size="200">
+			</p:layoutUnit>
+
+			<p:layoutUnit position="center" style="height:800px;">
+
+			</p:layoutUnit>
+
+			<p:layoutUnit position="south" size="50">
+				<p:panel align="right" style="font-size:12px; align: right;">NAVRAS | 2012. All Rights Reserved | Design by V@</p:panel>
+			</p:layoutUnit>
+
+		</p:layout> -->
+	</h:form>
+
+</h:body>
+</html>
