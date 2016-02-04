@@ -58,11 +58,7 @@
 			<artifactId>primefaces</artifactId>
 			<version>5.0.RC1</version>
 		</dependency>
-		<dependency>
-		    <groupId>org.primefaces.themes</groupId>
-		    <artifactId>midnight</artifactId>
-		    <version>1.0.10</version>
-		</dependency>
+		
 	</dependencies>
 
 	<build>
